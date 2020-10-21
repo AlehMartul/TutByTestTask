@@ -1,0 +1,10 @@
+<suite name="ChooseMoviesByGenre">
+    <test name="testChooseMovieByGenre">
+        <parameter name="movieGenre" value="Ужасы"/>
+        <parameter name="seriesGenre" value="Детектив"/>
+        <parameter name="cartoonsGenre" value="Аниме"/>
+        <classes>
+            <class name="tests.ChooseGenreTest"/>
+        </classes>
+    </test>
+</suite>
